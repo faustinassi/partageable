@@ -3,7 +3,7 @@
 //
 #ifndef COMPOSANT2_H
 #define COMPOSANT2_H
-
+//#define COMPOSANT2_VERSION 1,2,0,0
 
 #ifdef COMPOSANT2_EXPORTS
 	#define COMPOSANT2_INTERFACE __declspec(dllexport)
@@ -15,4 +15,5 @@
 
 // interface du composant2
 COMPOSANT2_INTERFACE int composant2(int p1, int p2);
+COMPOSANT2_INTERFACE char * getComposant2Version();
 #endif
